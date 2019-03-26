@@ -1,0 +1,23 @@
+一共开启两个端口
+
+zhibo 是录制视频
+
+dome 是弹幕
+
+
+直播：
+
+开启 zhibo文件里面的swoole    命令    php start.php
+
+火狐浏览器进入录制页面  zhibo里面的rec.html页面
+
+index.html 也可以看
+
+
+弹幕：
+
+默认访问index.php
+
+开启 dome/demo里面的 swoole   命令 php ws_server.php
+
+可以在demo/index.html页面看直播 刷弹幕
