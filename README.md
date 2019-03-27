@@ -4,16 +4,25 @@
 简单的讲一下  录制直播是zhibo，观看页面在dome
 
 zhibo：
-rec.html ： 录制视频
-start.php： swoole服务端
-index.html: 能观看录制的页面
-client 文件夹是用来存放录制视频的base64的图片，然后转发
+
+rec.html ： 录制视频;
+
+start.php： swoole服务端;
+
+index.html: 能观看录制的页面;
+
+client 文件夹是用来存放录制视频的base64的图片，然后转发;
+
 
 dome：
-demo：观看直播 发送弹幕 ，
-index.html :里面有两个websocket 的端口
-ws_server.php ： 弹幕的服务端
+demo：观看直播 发送弹幕 ;
+
+index.html :里面有两个websocket 的端口;
+
+ws_server.php ： 弹幕的服务端;
+
 log.txt：记录的日志
+
 
 尽量在本地虚拟机上观看，那样会比较流畅。
 不能传递声音，这个还在研究中。
